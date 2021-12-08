@@ -1,0 +1,31 @@
+.maingallery1{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .gallery{
+    float: left;
+    overflow: auto;
+    border-color: rgb(26, 16, 16);
+    padding: 4px 4px;
+    margin: 10px 5px;
+    width: 210px;
+    height: 350px;
+    border: 2px solid rgb(75, 14, 189);
+    justify-content:space-between;
+  }
+  .gallery img{
+    width: 200px;
+    height: 245px;
+  }
+  .gallery .desc{
+    flex-wrap: wrap;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+    font-family: serif;
+    justify-content: space-evenly;
+  }
+  
