@@ -1,0 +1,144 @@
+body {
+    margin: 50px;
+    font-family: helvetica, sans-serif;
+    font-family: montserrat;
+    background:url("T-Images/Player.jpg"); background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.down
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5px;
+    grid-gap: 2px;
+}
+.down p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px;
+    background-color: honeydew;
+    color: blue;
+    font-weight: bold;
+    border-radius: 4px;
+    border:2px solid indianred;
+}
+.down{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1
+{
+
+    background-color: white;
+    font-size: large;
+    font-style: initial;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+
+
+#wrap {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 160px;
+    padding: 0;
+    border-radius: 5px;
+    background: #fdfdfd;
+    border: 2px solid #0099cc;
+    margin: 16px 0px;
+    transition: .5s;
+}
+
+.btn-slide2 {
+    border: 2px solid #efa666;
+}
+
+
+
+.btn-slide2:hover {
+    background-color: #1b0ab4;
+}
+
+.btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+    color: #0099cc;
+}
+
+.btn-slide2:hover span.circle2 {
+    color: #efa666;
+}
+
+.btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+
+.btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide2 span.circle2 {
+    display: block;
+    background-color: #0099cc;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 22px;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.btn-slide2 span.circle2 {
+    background-color: #efa666;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #30abd5;
+    transition: .5s;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: #efa666;
+    left: 50px;
+  }
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+}
+
+.btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+    color: #fff;
+}
+
+
+
+
+  

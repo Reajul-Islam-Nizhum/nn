@@ -1,0 +1,153 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/jpg" href="T-Images/NA File Server.png"/>
+  <title>Bollywood Movies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Gallery.css">
+
+<!--Search box-->
+<script>      
+  function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByClassName("desc")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+</head>
+
+
+
+<body>
+  
+  <nav>
+    <label class="logo">
+      <a href="Bollywood Movies.html">Bollywood Movies</a>
+    </label>
+
+    <div class="search-container">
+      <form action="filter">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    
+    <div class="backspace">
+      <p><a href="index.html">Back</a></p>
+    </div>
+  </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul id="myUL">
+  <div class="maingallery1">
+    <li>
+      <div class="gallery">
+        <a target="_blank" href="Agneepath(2012)1080p.html">
+        <img src="T-Images/Agneepath(2012)1080p.jpg">
+        </a>
+       <div class="desc">Agneepath(2012)1080p</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href="Bhoot Police starring Saif Ali Khan, Arjun Kapoor, Yami Gautam, and Jacqueline Fernandez.html">
+          <img src="T-Images/Bhoot Police starring Saif Ali Khan, Arjun Kapoor, Yami Gautam, and Jacqueline Fernandez.jpeg">
+        </a>
+       <div class="desc">Bhoot Police starring Saif Ali Khan, Arjun Kapoor, Yami Gautam, and Jacqueline Fernandez</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href="Chehre (2021) Hindi 1080p WEB-DL DD 5.1 x264 ESub.html">
+          <img src="T-Images/Chehre (2021) Hindi 1080p WEB-DL DD 5.1 x264 ESub.jpg">
+        </a>
+       <div class="desc">Chehre (2021) Hindi 1080p WEB-DL DD 5.1 x264 ESub</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href="Shiddat (2021) Hindi 1080p WEB-DL DD+5.1 x264.html">
+          <img src="T-Images/Shiddat (2021) Hindi 1080p WEB-DL DD+5.1 x264.jpg">
+        </a>
+       <div class="desc">Shiddat (2021) Hindi 1080p WEB-DL DD+5.1 x264</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+    <li>
+      <div class="gallery">
+        <a target="_blank" href=".html">
+          <img src="T-Images/">
+        </a>
+       <div class="desc">Add a description of the image here</div>
+      </div>
+    </li>
+  </div>
+</ul>
+
+<div class="clearfix"></div>
+
+<br>
+  <footer class="footer">
+  <p>Developed By: Reajul Islam Nizhum</p>
+  <p>Copyright@NA File Server</p>
+  <p>All Rights Reserved By: Na File Server__Since 2020</p> 
+  </footer>
+</body>
+</html>
